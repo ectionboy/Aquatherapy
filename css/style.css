@@ -195,6 +195,13 @@ body{
 /* contacts */
 .contacts{
     display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+.contacts-box{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
 }
 .contacts-map{
     border-radius: 12px;
