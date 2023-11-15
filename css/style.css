@@ -248,11 +248,27 @@ body{
     font-size: 13px;
     line-height: 1.40;
     color: #018ABE;
-    background: #FFFFFF;
+    background-color: #FFFFFF;
     border-radius: 3px;
     min-width: 169px;
     height: 36px;
     border: none;
+}
+/* reviews */
+.reviews-wrap{
+display: flex;
+flex-wrap: wrap;
+gap: 24px;
+}
+.reviews-card{
+max-width: 360px;
+padding: 24px;
+border-radius: 12px;
+background-color: #1d323cb8;
+}
+.reviews-card-text{
+    margin-bottom: 8px;
+    width: 100%;
 }
 
 /* footer */
@@ -308,3 +324,4 @@ margin-bottom: 12px;
 .footer-contacts-tel{
     color: inherit;
 }
+
